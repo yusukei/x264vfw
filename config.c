@@ -103,7 +103,7 @@ static const reg_int_t reg_int_table[] =
     /* Basic */
     { "avc_level",       &reg.i_level,           0,   0,  COUNT_LEVEL - 1      },
     { "fastdecode",      &reg.b_fastdecode,      0,   0,  1                    },
-    { "zerolatency",     &reg.b_zerolatency,     0,   0,  1                    },
+    { "zerolatency",     &reg.b_zerolatency,     1,   0,  1                    },
     { "colorspace",      &reg.i_colorspace,      0,   0,  COUNT_COLORSPACE - 1 },
     /* Rate control */
     { "encoding_type",   &reg.i_encoding_type,   4,   0,  4                    }, /* Take into account GordianKnot workaround */
